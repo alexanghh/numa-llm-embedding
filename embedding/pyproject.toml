@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "numa-embedding"
+version = "0.0.1"
+description = "Compute embedding"
+authors = ["alexanghh"]
+
+[tool.poetry.dependencies]
+python = "~3.10"
+pynumaflow = "0.4.1"
+openai = "0.27.7"
+tiktoken = "0.4.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
